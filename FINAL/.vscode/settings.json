@@ -1,0 +1,12 @@
+{
+    "cSpell.enableFiletypes": [
+        "!python"
+    ],
+    "wolf.disableHotModeWarning": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "python.analysis.autoImportCompletions": false
+}
