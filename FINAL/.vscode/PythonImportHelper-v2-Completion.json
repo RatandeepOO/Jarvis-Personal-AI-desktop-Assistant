@@ -1,0 +1,717 @@
+[
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "whatsapp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "whatsapp",
+        "description": "whatsapp",
+        "detail": "whatsapp",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "test",
+        "description": "test",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QMainWindow",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QGraphicsDropShadowEffect",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QMainWindow",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QGraphicsDropShadowEffect",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QTimer",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QTimer",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QFont",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QColor",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPalette",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QBrush",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPixmap",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QFont",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QColor",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPalette",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QBrush",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPixmap",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "pyaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
+        "documentation": {}
+    },
+    {
+        "label": "pywhatkit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pywhatkit",
+        "description": "pywhatkit",
+        "detail": "pywhatkit",
+        "documentation": {}
+    },
+    {
+        "label": "Assistant",
+        "kind": 6,
+        "importPath": "MAIN FILE",
+        "description": "MAIN FILE",
+        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the speech recognition\n        self.recognizer = sr.Recognizer()\n        # Initialize the question-answering pipeline",
+        "detail": "MAIN FILE",
+        "documentation": {}
+    },
+    {
+        "label": "GifLoaderWorker",
+        "kind": 6,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "class GifLoaderWorker(QtCore.QThread):\n    gif_path_loaded = QtCore.pyqtSignal(str)  # Signal to emit when a GIF path is loaded\n    def __init__(self, gif_paths):\n        super().__init__()\n        self.gif_paths = gif_paths\n    def run(self):\n        # Emit paths to load GIFs one by one\n        for path in self.gif_paths:\n            self.gif_path_loaded.emit(path)\n            self.msleep(100)  # Simulate a small delay for better visual understanding",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalAssistantUI",
+        "kind": 6,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "class PersonalAssistantUI(QtWidgets.QMainWindow):\n    def __init__(self):\n        super().__init__()\n        # Set window properties\n        self.setWindowTitle(\"Personal Assistant\")\n        self.setGeometry(100, 100, 800, 600)\n        # Remove the maximize option\n        self.setWindowFlags(self.windowFlags() & ~QtCore.Qt.WindowMaximizeButtonHint)\n        # Set background color\n        self.setStyleSheet(\"background-color: black;\")",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "GifWindow",
+        "kind": 6,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "class GifWindow(QtWidgets.QWidget):\n    def __init__(self):\n        super().__init__()\n        # Set window properties\n        self.setWindowTitle(\"Come to the world of automation\")\n        self.setGeometry(150, 150, 800, 600)\n        # Remove the maximize option\n        self.setWindowFlags(self.windowFlags() & ~QtCore.Qt.WindowMaximizeButtonHint)\n        # Set background color\n        self.setStyleSheet(\"background-color: black;\")",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "NextWindow",
+        "kind": 6,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "class NextWindow(QtWidgets.QMainWindow):\n    def __init__(self):\n        super().__init__()\n        # Your existing initialization code...\n        # Create an instance of Assistant\n        self.assistant_instance = test.Assistant()\n        # Start the assistant\n        self.assistant_instance.run_assistant()\n        # Set window properties (larger window size)\n        self.setWindowTitle(\"Next Window\")",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "speak",
+        "kind": 2,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "def speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\nclass GifLoaderWorker(QtCore.QThread):\n    gif_path_loaded = QtCore.pyqtSignal(str)  # Signal to emit when a GIF path is loaded\n    def __init__(self, gif_paths):\n        super().__init__()\n        self.gif_paths = gif_paths\n    def run(self):",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "assistant",
+        "kind": 5,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "assistant = pyttsx3.init('sapi5')\nvoices = assistant.getProperty('voices')\nassistant.setProperty('voice', voices[1].id)\nassistant.setProperty('rate', 150)\ndef speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\nclass GifLoaderWorker(QtCore.QThread):\n    gif_path_loaded = QtCore.pyqtSignal(str)  # Signal to emit when a GIF path is loaded",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "voices",
+        "kind": 5,
+        "importPath": "MAIN",
+        "description": "MAIN",
+        "peekOfCode": "voices = assistant.getProperty('voices')\nassistant.setProperty('voice', voices[1].id)\nassistant.setProperty('rate', 150)\ndef speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\nclass GifLoaderWorker(QtCore.QThread):\n    gif_path_loaded = QtCore.pyqtSignal(str)  # Signal to emit when a GIF path is loaded\n    def __init__(self, gif_paths):",
+        "detail": "MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "speak",
+        "kind": 2,
+        "importPath": "nasa",
+        "description": "nasa",
+        "peekOfCode": "def speak(audio):\n    print(\"    \")\n    assistant.say(audio)\n    print(f\":{audio}\")\n    assistant.runAndWait()\ndef takecommand():\n    command = sr.Recognizer()\n    with sr.Microphone() as source:\n        print(\"Listening..........\")\n        command.pause_threshold = 1",
+        "detail": "nasa",
+        "documentation": {}
+    },
+    {
+        "label": "takecommand",
+        "kind": 2,
+        "importPath": "nasa",
+        "description": "nasa",
+        "peekOfCode": "def takecommand():\n    command = sr.Recognizer()\n    with sr.Microphone() as source:\n        print(\"Listening..........\")\n        command.pause_threshold = 1\n        audio = command.listen(source)\n        try : \n            print(\"Recognising...\")\n            querry = command.recognize_google(audio,language=\"en-in\")\n            print(f'You said : {querry}')",
+        "detail": "nasa",
+        "documentation": {}
+    },
+    {
+        "label": "nasanews",
+        "kind": 2,
+        "importPath": "nasa",
+        "description": "nasa",
+        "peekOfCode": "def nasanews(date):\n    apikey = \"4qay02XQL1ADxneyqbFiSOQsFrbqrJlfJUlCg8bc\"\n    url = \"https://api.nasa.gov/planetary/apod?api_key=\" + apikey\n    params_ = {\"date\":str(date)}\n    r = requests.get(url,params=params_ )\n    data = r.json()\n    print(data)\n    info = data[\"explanation\"]\n    title = data['title']\n    image = data['url']",
+        "detail": "nasa",
+        "documentation": {}
+    },
+    {
+        "label": "assistant",
+        "kind": 5,
+        "importPath": "nasa",
+        "description": "nasa",
+        "peekOfCode": "assistant = pyttsx3.init('sapi5')\nvoices = assistant.getProperty('voices')\nassistant.setProperty('voices',voices[0].id)\nassistant.setProperty('rate',150)\ndef speak(audio):\n    print(\"    \")\n    assistant.say(audio)\n    print(f\":{audio}\")\n    assistant.runAndWait()\ndef takecommand():",
+        "detail": "nasa",
+        "documentation": {}
+    },
+    {
+        "label": "voices",
+        "kind": 5,
+        "importPath": "nasa",
+        "description": "nasa",
+        "peekOfCode": "voices = assistant.getProperty('voices')\nassistant.setProperty('voices',voices[0].id)\nassistant.setProperty('rate',150)\ndef speak(audio):\n    print(\"    \")\n    assistant.say(audio)\n    print(f\":{audio}\")\n    assistant.runAndWait()\ndef takecommand():\n    command = sr.Recognizer()",
+        "detail": "nasa",
+        "documentation": {}
+    },
+    {
+        "label": "speak",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\n# Optimized take command function (name requirement removed)\ndef takecommand():\n    command = sr.Recognizer()\n    with sr.Microphone() as source:\n        print(\"Listening...\")\n        command.pause_threshold = 0.8",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "takecommand",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def takecommand():\n    command = sr.Recognizer()\n    with sr.Microphone() as source:\n        print(\"Listening...\")\n        command.pause_threshold = 0.8\n        command.energy_threshold = 300  \n        while True:\n            try:\n                audio = command.listen(source, timeout=5, phrase_time_limit=8)\n                print(\"Recognizing...\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "ask_question",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def ask_question(query):\n    speak(\"What would you like to ask?\")\n    question = query  # Take question from the user's input\n    context = \"I am your personal assistant. I can help you with various tasks and answer your questions.\"  # Provide context if needed\n    result = question_answerer(question=question, context=context)\n    answer = result['answer']\n    speak(answer)\n# Get user name at startup\ndef get_user_name():\n    speak(\"Hello, what would you like to call me?\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_name",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def get_user_name():\n    speak(\"Hello, what would you like to call me?\")\n    global user_name\n    user_name = takecommand().split()[0]\n    speak(f\"Nice to meet you, {user_name}. You can call me by saying my name first.\")\n# Delayed imports for on-demand functionality\ndef import_modules():\n    global wikipedia\n    import wikipedia\n# Run this in a separate thread to import the modules in the background",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "import_modules",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def import_modules():\n    global wikipedia\n    import wikipedia\n# Run this in a separate thread to import the modules in the background\ndef background_module_import():\n    threading.Thread(target=import_modules).start()\n# Get weather information\ndef get_weather():\n    speak(\"Tell me your city\")\n    city = takecommand()",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "background_module_import",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def background_module_import():\n    threading.Thread(target=import_modules).start()\n# Get weather information\ndef get_weather():\n    speak(\"Tell me your city\")\n    city = takecommand()\n    api_key = \"2a52eb44477d710bab5b4734ef32344b\"  # Replace with your actual OpenWeatherMap API key\n    weather_url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}\"\n    try:\n        response = requests.get(weather_url)",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "get_weather",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def get_weather():\n    speak(\"Tell me your city\")\n    city = takecommand()\n    api_key = \"2a52eb44477d710bab5b4734ef32344b\"  # Replace with your actual OpenWeatherMap API key\n    weather_url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}\"\n    try:\n        response = requests.get(weather_url)\n        data = response.json()\n        if data[\"cod\"] != \"404\":\n            main = data['main']",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "get_location",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def get_location():\n    try:\n        response = requests.get(\"http://ip-api.com/json/\")\n        data = response.json()\n        city = data['city']\n        country = data['country']\n        speak(f\"You are currently in {city}, {country}.\")\n    except Exception as e:\n        speak(\"Unable to determine your location.\")\n# Google Search",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "google_search",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def google_search(query):\n    speak(f\"Searching Google for {query}.\")\n    webbrowser.open(f\"https://www.google.com/search?q={query}\")\n# Wikipedia Search\ndef wikipedia_search(query):\n    speak(f\"Searching Wikipedia for {query}.\")\n    try:\n        summary = wikipedia.summary(query, sentences=2)\n        speak(\"According to Wikipedia\")\n        speak(summary)",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "wikipedia_search",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def wikipedia_search(query):\n    speak(f\"Searching Wikipedia for {query}.\")\n    try:\n        summary = wikipedia.summary(query, sentences=2)\n        speak(\"According to Wikipedia\")\n        speak(summary)\n    except wikipedia.exceptions.PageError:\n        speak(\"Sorry, I couldn't find anything on Wikipedia for that.\")\n    except wikipedia.exceptions.DisambiguationError as e:\n        speak(f\"Your query is too ambiguous. Did you mean: {e.options[:5]}?\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "youtube_search",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def youtube_search(query):\n    speak(f\"Searching YouTube for {query}.\")\n    webbrowser.open(f\"https://www.youtube.com/results?search_query={query}\")\n# System control functions for shutdown and restart\ndef system_control(command):\n    if 'shut down' in command:\n        speak(\"Shutting down the system.\")\n        os.system(\"shutdown /s /t 1\")\n    elif 'restart' in command:\n        speak(\"Restarting the system.\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "system_control",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def system_control(command):\n    if 'shut down' in command:\n        speak(\"Shutting down the system.\")\n        os.system(\"shutdown /s /t 1\")\n    elif 'restart' in command:\n        speak(\"Restarting the system.\")\n        os.system(\"shutdown /r /t 1\")\n# Set reminder function\ndef set_reminder():\n    speak(\"What do you want to be reminded about?\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "set_reminder",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def set_reminder():\n    speak(\"What do you want to be reminded about?\")\n    reminder = takecommand()\n    speak(\"In how many minutes?\")\n    minutes = int(takecommand())\n    future_time = datetime.datetime.now() + datetime.timedelta(minutes=minutes)\n    speak(f\"Reminder set for {minutes} minutes from now.\")\n    threading.Timer(minutes * 60, lambda: speak(f\"Reminder: {reminder}\")).start()\n# Efficient news function\ndef get_news():",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "get_news",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def get_news():\n    try:\n        speak(\"Fetching the latest news...\")\n        api_key = \"028c9fc91fd04dd99d86ba3db42db83d\"  # Replace with your actual news API key\n        url = f\"https://newsapi.org/v2/top-headlines?country=in&apiKey={api_key}\"\n        response = requests.get(url).json()\n        for i, article in enumerate(response[\"articles\"][:5]):\n            speak(f\"News {i + 1}: {article['title']}\")\n    except Exception as e:\n        speak(\"Unable to fetch news at the moment.\")",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "send_email",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def send_email():\n    speak(\"What is the subject of the email?\")\n    subject = takecommand()\n    speak(\"What should I say in the email?\")\n    body = takecommand()\n    email_content = f\"Subject: {subject}\\n\\n{body}\"\n    try:\n        server = smtplib.SMTP('smtp.gmail.com', 587)\n        server.starttls()\n        server.login('aroraratan77@gmail.com', 'ratan2007')  # Replace with actual credentials",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "run_assistant",
+        "kind": 2,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "def run_assistant():\n    get_user_name()  # Get user name at startup\n    background_module_import()  # Imports modules in the background\n    while True:\n        query = takecommand()\n        if query == \"none\":\n            continue\n        if 'weather' in query:\n            get_weather()\n        elif 'location' in query:",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "assistant",
+        "kind": 5,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "assistant = pyttsx3.init('sapi5')\nvoices = assistant.getProperty('voices')\nassistant.setProperty('voice', voices[1].id)\nassistant.setProperty('rate', 150)\n# Function to speak out loud\ndef speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\n# Optimized take command function (name requirement removed)",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "voices",
+        "kind": 5,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "voices = assistant.getProperty('voices')\nassistant.setProperty('voice', voices[1].id)\nassistant.setProperty('rate', 150)\n# Function to speak out loud\ndef speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\n# Optimized take command function (name requirement removed)\ndef takecommand():",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "question_answerer",
+        "kind": 5,
+        "importPath": "old",
+        "description": "old",
+        "peekOfCode": "question_answerer = pipeline(\"question-answering\", model=\"distilbert-base-uncased-distilled-squad\")\n# Ask question function using Hugging Face\ndef ask_question(query):\n    speak(\"What would you like to ask?\")\n    question = query  # Take question from the user's input\n    context = \"I am your personal assistant. I can help you with various tasks and answer your questions.\"  # Provide context if needed\n    result = question_answerer(question=question, context=context)\n    answer = result['answer']\n    speak(answer)\n# Get user name at startup",
+        "detail": "old",
+        "documentation": {}
+    },
+    {
+        "label": "MainWindow",
+        "kind": 6,
+        "importPath": "ui",
+        "description": "ui",
+        "peekOfCode": "class MainWindow(QMainWindow):\n    def __init__(self):\n        super().__init__()\n        # Set the title and size of the window\n        self.setWindowTitle(\"Personal Assistant\")\n        self.setGeometry(200, 200, 800, 600)  # x, y, width, height\n        # Initialize UI\n        self.initUI()\n        # Set up a timer to change outline color every 300 milliseconds\n        self.timer = QTimer(self)",
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ui",
+        "description": "ui",
+        "peekOfCode": "app = QApplication(sys.argv)\nwindow = MainWindow()\nwindow.show()\nsys.exit(app.exec_())",
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "ui",
+        "description": "ui",
+        "peekOfCode": "window = MainWindow()\nwindow.show()\nsys.exit(app.exec_())",
+        "detail": "ui",
+        "documentation": {}
+    },
+    {
+        "label": "sendmsgnow",
+        "kind": 2,
+        "importPath": "whatsapp",
+        "description": "whatsapp",
+        "peekOfCode": "def sendmsgnow(ph,msg):\n    py.sendwhatmsg_instantly(ph,msg)\n\"\"\" \nPhone number = String\nMessage = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
+        "detail": "whatsapp",
+        "documentation": {}
+    },
+    {
+        "label": "whatsapp",
+        "kind": 2,
+        "importPath": "whatsapp",
+        "description": "whatsapp",
+        "peekOfCode": "def whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
+        "detail": "whatsapp",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 5,
+        "importPath": "whatsapp",
+        "description": "whatsapp",
+        "peekOfCode": "Message = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
+        "detail": "whatsapp",
+        "documentation": {}
+    }
+]

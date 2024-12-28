@@ -58,9 +58,9 @@ def nasanews(date):
     with open(file_name,'wb') as f:
         f.write(image_r.content)
 
-    path_1 = "P:\\POLY\\RATANDEEP\\ratandeep pack\\nasa.py\\" + str(file_name)
+    path_1 = "nasa.py\\" + str(file_name)
 
-    path_2 = "P:\\POLY\\RATANDEEP\\ratandeep pack\\nasa.py\\" + str(file_name)
+    path_2 = "nasa.py\\" + str(file_name)
 
     os.rename(path_1,path_2)
     img = Image.open(path_2)
