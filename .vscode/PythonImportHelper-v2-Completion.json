@@ -1010,32 +1010,5 @@
         "peekOfCode": "window = MainWindow()\nwindow.show()\nsys.exit(app.exec_())",
         "detail": "FINAL.ui",
         "documentation": {}
-    },
-    {
-        "label": "sendmsgnow",
-        "kind": 2,
-        "importPath": "FINAL.whatsapp",
-        "description": "FINAL.whatsapp",
-        "peekOfCode": "def sendmsgnow(ph,msg):\n    py.sendwhatmsg_instantly(ph,msg)\n\"\"\" \nPhone number = String\nMessage = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "FINAL.whatsapp",
-        "documentation": {}
-    },
-    {
-        "label": "whatsapp",
-        "kind": 2,
-        "importPath": "FINAL.whatsapp",
-        "description": "FINAL.whatsapp",
-        "peekOfCode": "def whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "FINAL.whatsapp",
-        "documentation": {}
-    },
-    {
-        "label": "Message",
-        "kind": 5,
-        "importPath": "FINAL.whatsapp",
-        "description": "FINAL.whatsapp",
-        "peekOfCode": "Message = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "FINAL.whatsapp",
-        "documentation": {}
     }
 ]
