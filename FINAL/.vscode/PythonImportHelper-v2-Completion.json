@@ -1,5 +1,14 @@
 [
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "smtplib",
         "kind": 6,
         "isExtraImport": true,
@@ -15,15 +24,6 @@
         "importPath": "pyttsx3",
         "description": "pyttsx3",
         "detail": "pyttsx3",
-        "documentation": {}
-    },
-    {
-        "label": "speech_recognition",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "speech_recognition",
-        "description": "speech_recognition",
-        "detail": "speech_recognition",
         "documentation": {}
     },
     {
@@ -54,6 +54,15 @@
         "documentation": {}
     },
     {
+        "label": "language_tool_python",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "language_tool_python",
+        "description": "language_tool_python",
+        "detail": "language_tool_python",
+        "documentation": {}
+    },
+    {
         "label": "threading",
         "kind": 6,
         "isExtraImport": true,
@@ -72,16 +81,24 @@
         "documentation": {}
     },
     {
-        "label": "whatsapp",
+        "label": "whatsappdesktop",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "whatsapp",
-        "description": "whatsapp",
-        "detail": "whatsapp",
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "detail": "whatsappdesktop",
         "documentation": {}
     },
     {
-        "label": "pipeline",
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
         "importPath": "transformers",
         "description": "transformers",
         "isExtraImport": true,
@@ -94,6 +111,47 @@
         "description": "transformers",
         "isExtraImport": true,
         "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "vosk",
+        "description": "vosk",
+        "isExtraImport": true,
+        "detail": "vosk",
+        "documentation": {}
+    },
+    {
+        "label": "KaldiRecognizer",
+        "importPath": "vosk",
+        "description": "vosk",
+        "isExtraImport": true,
+        "detail": "vosk",
+        "documentation": {}
+    },
+    {
+        "label": "pyaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
+        "documentation": {}
+    },
+    {
+        "label": "Translator",
+        "importPath": "googletrans",
+        "description": "googletrans",
+        "isExtraImport": true,
+        "detail": "googletrans",
         "documentation": {}
     },
     {
@@ -355,12 +413,12 @@
         "documentation": {}
     },
     {
-        "label": "pyaudio",
+        "label": "speech_recognition",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pyaudio",
-        "description": "pyaudio",
-        "detail": "pyaudio",
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
         "documentation": {}
     },
     {
@@ -373,11 +431,55 @@
         "documentation": {}
     },
     {
+        "label": "pyautogui",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyautogui",
+        "description": "pyautogui",
+        "detail": "pyautogui",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess.",
+        "description": "subprocess.",
+        "detail": "subprocess.",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "Assistant",
         "kind": 6,
         "importPath": "MAIN FILE",
         "description": "MAIN FILE",
-        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the speech recognition\n        self.recognizer = sr.Recognizer()\n        # Initialize the question-answering pipeline",
+        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_model = {\"engish\" : Model(\"FINAL\\Models\\vosk-model-en-in-0.5\"),\n                           \"hindi\" : Model(\"FINAL\\Models\\vosk-model-hi-0.5\")}",
         "detail": "MAIN FILE",
         "documentation": {}
     },
@@ -688,30 +790,111 @@
         "documentation": {}
     },
     {
-        "label": "sendmsgnow",
+        "label": "sendmessage",
         "kind": 2,
-        "importPath": "whatsapp",
-        "description": "whatsapp",
-        "peekOfCode": "def sendmsgnow(ph,msg):\n    py.sendwhatmsg_instantly(ph,msg)\n\"\"\" \nPhone number = String\nMessage = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "whatsapp",
+        "importPath": "what",
+        "description": "what",
+        "peekOfCode": "def sendmessage(recip_no, message):\n    try:\n        pywhatkit.sendwhatmsg_instantly(recip_no , message)\n        (recip_no, message)\n        print(\"Message sent successfully!\")\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\ndef messageinput1(list_no):\n    # Collect inputs from the user\n    name = input(\"Enter the name of the recipient: \")",
+        "detail": "what",
         "documentation": {}
     },
     {
-        "label": "whatsapp",
+        "label": "messageinput1",
         "kind": 2,
-        "importPath": "whatsapp",
-        "description": "whatsapp",
-        "peekOfCode": "def whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "whatsapp",
+        "importPath": "what",
+        "description": "what",
+        "peekOfCode": "def messageinput1(list_no):\n    # Collect inputs from the user\n    name = input(\"Enter the name of the recipient: \")\n    recip_no = str(list_no)\n    message = input(\"Enter the message: \")\n    sendmessage(recip_no, message)\ndef messageinput(list_no):        \n    message = input(\"Enter the message: \")\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user",
+        "detail": "what",
         "documentation": {}
     },
     {
-        "label": "Message",
+        "label": "messageinput",
+        "kind": 2,
+        "importPath": "what",
+        "description": "what",
+        "peekOfCode": "def messageinput(list_no):        \n    message = input(\"Enter the message: \")\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")\n        recip_no = str(list_no[i])\n        sendmessage(recip_no, message)\nno = int(input(\"Enter number of contacts ::\"))\nif no > 1:\n    list_no = input(\"Enter the numbers and separate by commas (e.g. +XXXXXXXXXX, +XXXXXXXXXX) :: \").split(',')",
+        "detail": "what",
+        "documentation": {}
+    },
+    {
+        "label": "no",
         "kind": 5,
-        "importPath": "whatsapp",
-        "description": "whatsapp",
-        "peekOfCode": "Message = string\ntime hour = int\ntime min = int\n\"\"\"\ndef whatsapp(ph,msg):\n    sendmsgnow(ph,msg)",
-        "detail": "whatsapp",
+        "importPath": "what",
+        "description": "what",
+        "peekOfCode": "no = int(input(\"Enter number of contacts ::\"))\nif no > 1:\n    list_no = input(\"Enter the numbers and separate by commas (e.g. +XXXXXXXXXX, +XXXXXXXXXX) :: \").split(',')\n    messageinput(list_no)\nelse:\n    list_no = [input(\"Enter the number:: \")]\n    messageinput1(list_no)\nprint(list_no)",
+        "detail": "what",
+        "documentation": {}
+    },
+    {
+        "label": "send_desktop_message",
+        "kind": 2,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "def send_desktop_message(recipient_name, message):\n    try:\n        # Open WhatsApp Desktop (adjust the path based on your system)\n        os.startfile(\"C:\\\\Users\\\\arora\\\\OneDrive\\\\Desktop\\\\WhatsApp - Shortcut.lnk\")\n        time.sleep(5)  # Wait for the app to open\n        # Focus on the search bar and type the recipient's name\n        pyautogui.hotkey('ctrl', 'f')  # Shortcut to open search\n        time.sleep(1)\n        pyautogui.typewrite(recipient_name, interval=0.1)\n        time.sleep(2)",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "on_send_click",
+        "kind": 2,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "def on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)\n    else:\n        messagebox.showwarning(\"Input Error\", \"Please fill in both fields.\")\n# Add a send button\nsend_button = tk.Button(root, text=\"Send Message\", command=on_send_click)\nsend_button.pack(pady=20)",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "root = tk.Tk()\nroot.title(\"WhatsApp Message Sender\")\n# Set the window size\nroot.geometry(\"400x250\")\n# Add a label and entry for the recipient's name\nlabel_name = tk.Label(root, text=\"Recipient's Name:\")\nlabel_name.pack(pady=10)\nentry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "label_name",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "label_name = tk.Label(root, text=\"Recipient's Name:\")\nlabel_name.pack(pady=10)\nentry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message\nlabel_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "entry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message\nlabel_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "label_message",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "label_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "entry_message",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "entry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)\n    else:\n        messagebox.showwarning(\"Input Error\", \"Please fill in both fields.\")",
+        "detail": "whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "send_button",
+        "kind": 5,
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "peekOfCode": "send_button = tk.Button(root, text=\"Send Message\", command=on_send_click)\nsend_button.pack(pady=20)\n# Run the main loop\nroot.mainloop()",
+        "detail": "whatsappdesktop",
         "documentation": {}
     }
 ]
