@@ -90,6 +90,15 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "smtplib",
         "kind": 6,
         "isExtraImport": true,
@@ -105,15 +114,6 @@
         "importPath": "pyttsx3",
         "description": "pyttsx3",
         "detail": "pyttsx3",
-        "documentation": {}
-    },
-    {
-        "label": "speech_recognition",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "speech_recognition",
-        "description": "speech_recognition",
-        "detail": "speech_recognition",
         "documentation": {}
     },
     {
@@ -135,6 +135,15 @@
         "documentation": {}
     },
     {
+        "label": "language_tool_python",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "language_tool_python",
+        "description": "language_tool_python",
+        "detail": "language_tool_python",
+        "documentation": {}
+    },
+    {
         "label": "threading",
         "kind": 6,
         "isExtraImport": true,
@@ -153,16 +162,24 @@
         "documentation": {}
     },
     {
-        "label": "whatsapp",
+        "label": "whatsappdesktop",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "whatsapp",
-        "description": "whatsapp",
-        "detail": "whatsapp",
+        "importPath": "whatsappdesktop",
+        "description": "whatsappdesktop",
+        "detail": "whatsappdesktop",
         "documentation": {}
     },
     {
-        "label": "pipeline",
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
         "importPath": "transformers",
         "description": "transformers",
         "isExtraImport": true,
@@ -175,6 +192,47 @@
         "description": "transformers",
         "isExtraImport": true,
         "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "vosk",
+        "description": "vosk",
+        "isExtraImport": true,
+        "detail": "vosk",
+        "documentation": {}
+    },
+    {
+        "label": "KaldiRecognizer",
+        "importPath": "vosk",
+        "description": "vosk",
+        "isExtraImport": true,
+        "detail": "vosk",
+        "documentation": {}
+    },
+    {
+        "label": "pyaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
+        "documentation": {}
+    },
+    {
+        "label": "Translator",
+        "importPath": "googletrans",
+        "description": "googletrans",
+        "isExtraImport": true,
+        "detail": "googletrans",
         "documentation": {}
     },
     {
@@ -427,12 +485,12 @@
         "documentation": {}
     },
     {
-        "label": "pyaudio",
+        "label": "speech_recognition",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pyaudio",
-        "description": "pyaudio",
-        "detail": "pyaudio",
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
         "documentation": {}
     },
     {
@@ -745,7 +803,7 @@
         "kind": 6,
         "importPath": "FINAL.MAIN FILE",
         "description": "FINAL.MAIN FILE",
-        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the speech recognition\n        self.recognizer = sr.Recognizer()\n        # Initialize the question-answering pipeline",
+        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_model = {\"engish\" : Model(\"FINAL\\Models\\vosk-model-en-in-0.5\"),\n                           \"hindi\" : Model(\"FINAL\\Models\\vosk-model-hi-0.5\")}",
         "detail": "FINAL.MAIN FILE",
         "documentation": {}
     },
