@@ -445,6 +445,24 @@
         "documentation": {}
     },
     {
+        "label": "pyautogui",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyautogui",
+        "description": "pyautogui",
+        "detail": "pyautogui",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "Tee",
         "kind": 6,
         "importPath": ".venv.Scripts.pywin32_postinstall",
@@ -1009,6 +1027,60 @@
         "description": "FINAL.ui",
         "peekOfCode": "window = MainWindow()\nwindow.show()\nsys.exit(app.exec_())",
         "detail": "FINAL.ui",
+        "documentation": {}
+    },
+    {
+        "label": "sendmessage",
+        "kind": 2,
+        "importPath": "FINAL.what",
+        "description": "FINAL.what",
+        "peekOfCode": "def sendmessage(recip_no, message, hour, minute):\n    try:\n        what.sendwhatmsg(recip_no, message, hour, minute)\n        print(\"Message sent successfully!\")\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\ndef messageinput():\n    for i in len(list_no):\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")",
+        "detail": "FINAL.what",
+        "documentation": {}
+    },
+    {
+        "label": "messageinput",
+        "kind": 2,
+        "importPath": "FINAL.what",
+        "description": "FINAL.what",
+        "peekOfCode": "def messageinput():\n    for i in len(list_no):\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")\n        recip_no = str(list_no[i])\n        hour = int(input(\"Enter the hour (24-hour format): \"))\n        minute = int(input(\"Enter the minutes: \"))\n        message = input(\"Enter the message: \")\n        sendmessage(recip_no, message, hour, minute)\nlist_no = eval(input(\"Enter the number and seprate by commas (e.g.  XXXXXXXXXX , XXXXXXXXXX)\"))",
+        "detail": "FINAL.what",
+        "documentation": {}
+    },
+    {
+        "label": "list_no",
+        "kind": 5,
+        "importPath": "FINAL.what",
+        "description": "FINAL.what",
+        "peekOfCode": "list_no = eval(input(\"Enter the number and seprate by commas (e.g.  XXXXXXXXXX , XXXXXXXXXX)\"))",
+        "detail": "FINAL.what",
+        "documentation": {}
+    },
+    {
+        "label": "send_desktop_message",
+        "kind": 2,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "def send_desktop_message(recipient_name, message):\n    try:\n        # Open WhatsApp Desktop (adjust the path based on your system)\n        subprocess.Popen([\"C:\\\\Users\\\\<YourUsername>\\\\AppData\\\\Local\\\\WhatsApp\\\\WhatsApp.exe\"])\n        time.sleep(5)  # Wait for the app to open\n        # Focus on the search bar and type the recipient's name\n        pyautogui.hotkey('ctrl', 'f')  # Shortcut to open search\n        time.sleep(1)\n        pyautogui.typewrite(recipient_name, interval=0.1)\n        time.sleep(2)",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "name = input(\"Enter the recipient's name as saved in WhatsApp: \")\nmessage = input(\"Enter the message to send: \")\n# Send the message\nsend_desktop_message(name, message)",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "message = input(\"Enter the message to send: \")\n# Send the message\nsend_desktop_message(name, message)",
+        "detail": "FINAL.whatsappdesktop",
         "documentation": {}
     }
 ]
