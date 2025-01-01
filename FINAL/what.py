@@ -17,12 +17,13 @@ def messageinput1(list_no):
     message = input("Enter the message: ")
     sendmessage(recip_no, message)
         
-def messageinput(list_no):
+def messageinput(list_no):        
+    message = input("Enter the message: ")
     for i in range(len(list_no)):  # Corrected loop
         # Collect inputs from the user
         name = input("Enter the name of the recipient: ")
         recip_no = str(list_no[i])
-        message = input("Enter the message: ")
+
         sendmessage(recip_no, message)
 
 no = int(input("Enter number of contacts ::"))

@@ -1043,7 +1043,7 @@
         "kind": 2,
         "importPath": "FINAL.what",
         "description": "FINAL.what",
-        "peekOfCode": "def messageinput1(list_no):\n    # Collect inputs from the user\n    name = input(\"Enter the name of the recipient: \")\n    recip_no = str(list_no)\n    message = input(\"Enter the message: \")\n    sendmessage(recip_no, message)\ndef messageinput(list_no):\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")",
+        "peekOfCode": "def messageinput1(list_no):\n    # Collect inputs from the user\n    name = input(\"Enter the name of the recipient: \")\n    recip_no = str(list_no)\n    message = input(\"Enter the message: \")\n    sendmessage(recip_no, message)\ndef messageinput(list_no):        \n    message = input(\"Enter the message: \")\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user",
         "detail": "FINAL.what",
         "documentation": {}
     },
@@ -1052,7 +1052,7 @@
         "kind": 2,
         "importPath": "FINAL.what",
         "description": "FINAL.what",
-        "peekOfCode": "def messageinput(list_no):\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")\n        recip_no = str(list_no[i])\n        message = input(\"Enter the message: \")\n        sendmessage(recip_no, message)\nno = int(input(\"Enter number of contacts ::\"))\nif no > 1:\n    list_no = input(\"Enter the numbers and separate by commas (e.g. +XXXXXXXXXX, +XXXXXXXXXX) :: \").split(',')",
+        "peekOfCode": "def messageinput(list_no):        \n    message = input(\"Enter the message: \")\n    for i in range(len(list_no)):  # Corrected loop\n        # Collect inputs from the user\n        name = input(\"Enter the name of the recipient: \")\n        recip_no = str(list_no[i])\n        sendmessage(recip_no, message)\nno = int(input(\"Enter number of contacts ::\"))\nif no > 1:\n    list_no = input(\"Enter the numbers and separate by commas (e.g. +XXXXXXXXXX, +XXXXXXXXXX) :: \").split(',')",
         "detail": "FINAL.what",
         "documentation": {}
     },
