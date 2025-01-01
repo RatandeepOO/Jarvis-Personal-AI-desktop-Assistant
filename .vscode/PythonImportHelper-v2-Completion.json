@@ -463,6 +463,32 @@
         "documentation": {}
     },
     {
+        "label": "subprocess,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess.",
+        "description": "subprocess.",
+        "detail": "subprocess.",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "Tee",
         "kind": 6,
         "importPath": ".venv.Scripts.pywin32_postinstall",
@@ -1070,25 +1096,70 @@
         "kind": 2,
         "importPath": "FINAL.whatsappdesktop",
         "description": "FINAL.whatsappdesktop",
-        "peekOfCode": "def send_desktop_message(recipient_name, message):\n    try:\n        # Open WhatsApp Desktop (adjust the path based on your system)\n        subprocess.Popen([\"C:\\\\Users\\\\<YourUsername>\\\\AppData\\\\Local\\\\WhatsApp\\\\WhatsApp.exe\"])\n        time.sleep(5)  # Wait for the app to open\n        # Focus on the search bar and type the recipient's name\n        pyautogui.hotkey('ctrl', 'f')  # Shortcut to open search\n        time.sleep(1)\n        pyautogui.typewrite(recipient_name, interval=0.1)\n        time.sleep(2)",
+        "peekOfCode": "def send_desktop_message(recipient_name, message):\n    try:\n        # Open WhatsApp Desktop (adjust the path based on your system)\n        os.startfile(\"C:\\\\Users\\\\arora\\\\OneDrive\\\\Desktop\\\\WhatsApp - Shortcut.lnk\")\n        time.sleep(5)  # Wait for the app to open\n        # Focus on the search bar and type the recipient's name\n        pyautogui.hotkey('ctrl', 'f')  # Shortcut to open search\n        time.sleep(1)\n        pyautogui.typewrite(recipient_name, interval=0.1)\n        time.sleep(2)",
         "detail": "FINAL.whatsappdesktop",
         "documentation": {}
     },
     {
-        "label": "name",
-        "kind": 5,
+        "label": "on_send_click",
+        "kind": 2,
         "importPath": "FINAL.whatsappdesktop",
         "description": "FINAL.whatsappdesktop",
-        "peekOfCode": "name = input(\"Enter the recipient's name as saved in WhatsApp: \")\nmessage = input(\"Enter the message to send: \")\n# Send the message\nsend_desktop_message(name, message)",
+        "peekOfCode": "def on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)\n    else:\n        messagebox.showwarning(\"Input Error\", \"Please fill in both fields.\")\n# Add a send button\nsend_button = tk.Button(root, text=\"Send Message\", command=on_send_click)\nsend_button.pack(pady=20)",
         "detail": "FINAL.whatsappdesktop",
         "documentation": {}
     },
     {
-        "label": "message",
+        "label": "root",
         "kind": 5,
         "importPath": "FINAL.whatsappdesktop",
         "description": "FINAL.whatsappdesktop",
-        "peekOfCode": "message = input(\"Enter the message to send: \")\n# Send the message\nsend_desktop_message(name, message)",
+        "peekOfCode": "root = tk.Tk()\nroot.title(\"WhatsApp Message Sender\")\n# Set the window size\nroot.geometry(\"400x250\")\n# Add a label and entry for the recipient's name\nlabel_name = tk.Label(root, text=\"Recipient's Name:\")\nlabel_name.pack(pady=10)\nentry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "label_name",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "label_name = tk.Label(root, text=\"Recipient's Name:\")\nlabel_name.pack(pady=10)\nentry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message\nlabel_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "entry_name",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "entry_name = tk.Entry(root, width=30)\nentry_name.pack(pady=5)\n# Add a label and entry for the message\nlabel_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "label_message",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "label_message = tk.Label(root, text=\"Message:\")\nlabel_message.pack(pady=10)\nentry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "entry_message",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "entry_message = tk.Entry(root, width=30)\nentry_message.pack(pady=5)\n# Function to handle button click\ndef on_send_click():\n    recipient_name = entry_name.get()\n    message = entry_message.get()\n    if recipient_name and message:\n        send_desktop_message(recipient_name, message)\n    else:\n        messagebox.showwarning(\"Input Error\", \"Please fill in both fields.\")",
+        "detail": "FINAL.whatsappdesktop",
+        "documentation": {}
+    },
+    {
+        "label": "send_button",
+        "kind": 5,
+        "importPath": "FINAL.whatsappdesktop",
+        "description": "FINAL.whatsappdesktop",
+        "peekOfCode": "send_button = tk.Button(root, text=\"Send Message\", command=on_send_click)\nsend_button.pack(pady=20)\n# Run the main loop\nroot.mainloop()",
         "detail": "FINAL.whatsappdesktop",
         "documentation": {}
     }

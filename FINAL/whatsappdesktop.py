@@ -1,11 +1,13 @@
 import pyautogui
 import time
-import subprocess
+import subprocess, os
+import tkinter as tk
+from tkinter import messagebox
 
 def send_desktop_message(recipient_name, message):
     try:
         # Open WhatsApp Desktop (adjust the path based on your system)
-        subprocess.Popen(["C:\\Users\\<YourUsername>\\AppData\\Local\\WhatsApp\\WhatsApp.exe"])
+        os.startfile("C:\\Users\\arora\\OneDrive\\Desktop\\WhatsApp - Shortcut.lnk")
         time.sleep(5)  # Wait for the app to open
         
         # Focus on the search bar and type the recipient's name
@@ -15,6 +17,8 @@ def send_desktop_message(recipient_name, message):
         time.sleep(2)
         
         # Press Enter to select the chat
+        pyautogui.press('down')
+        time.sleep(2)
         pyautogui.press('enter')
         time.sleep(2)
         
@@ -24,13 +28,43 @@ def send_desktop_message(recipient_name, message):
         
         # Send the message
         pyautogui.press('enter')
-        print(f"Message sent successfully to {recipient_name}!")
+        messagebox.showinfo("Success", f"Message sent successfully to {recipient_name}!")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        messagebox.showerror("Error", f"An error occurred: {e}")
 
-# User input
-name = input("Enter the recipient's name as saved in WhatsApp: ")
-message = input("Enter the message to send: ")
+# Create the main window
+root = tk.Tk()
+root.title("WhatsApp Message Sender")
 
-# Send the message
-send_desktop_message(name, message)
+# Set the window size
+root.geometry("400x250")
+
+# Add a label and entry for the recipient's name
+label_name = tk.Label(root, text="Recipient's Name:")
+label_name.pack(pady=10)
+
+entry_name = tk.Entry(root, width=30)
+entry_name.pack(pady=5)
+
+# Add a label and entry for the message
+label_message = tk.Label(root, text="Message:")
+label_message.pack(pady=10)
+
+entry_message = tk.Entry(root, width=30)
+entry_message.pack(pady=5)
+
+# Function to handle button click
+def on_send_click():
+    recipient_name = entry_name.get()
+    message = entry_message.get()
+    if recipient_name and message:
+        send_desktop_message(recipient_name, message)
+    else:
+        messagebox.showwarning("Input Error", "Please fill in both fields.")
+
+# Add a send button
+send_button = tk.Button(root, text="Send Message", command=on_send_click)
+send_button.pack(pady=20)
+
+# Run the main loop
+root.mainloop()
