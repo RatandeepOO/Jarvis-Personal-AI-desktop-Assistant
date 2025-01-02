@@ -794,7 +794,7 @@
         "kind": 6,
         "importPath": "FINAL.MAIN FILE",
         "description": "FINAL.MAIN FILE",
-        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_models = {\n            \"english\": Model(\"FINAL/Models/vosk-model-small-en-in-0.4\"),",
+        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_models = {\n            \"english\": Model(\"FINAL\\\\Models\\\\vosk-model-small-en-in-0.4\"),",
         "detail": "FINAL.MAIN FILE",
         "documentation": {}
     },
