@@ -162,12 +162,12 @@
         "documentation": {}
     },
     {
-        "label": "whatsappdesktop",
+        "label": "pyaudio",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "whatsappdesktop",
-        "description": "whatsappdesktop",
-        "detail": "whatsappdesktop",
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
         "documentation": {}
     },
     {
@@ -180,14 +180,6 @@
     },
     {
         "label": "AutoTokenizer",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "pipeline",
         "importPath": "transformers",
         "description": "transformers",
         "isExtraImport": true,
@@ -219,12 +211,11 @@
         "documentation": {}
     },
     {
-        "label": "pyaudio",
-        "kind": 6,
+        "label": "Model",
+        "importPath": "vosk",
+        "description": "vosk",
         "isExtraImport": true,
-        "importPath": "pyaudio",
-        "description": "pyaudio",
-        "detail": "pyaudio",
+        "detail": "vosk",
         "documentation": {}
     },
     {
@@ -803,7 +794,7 @@
         "kind": 6,
         "importPath": "FINAL.MAIN FILE",
         "description": "FINAL.MAIN FILE",
-        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_model = {\"engish\" : Model(\"FINAL\\Models\\vosk-model-en-in-0.5\"),\n                           \"hindi\" : Model(\"FINAL\\Models\\vosk-model-hi-0.5\")}",
+        "peekOfCode": "class Assistant:\n    def __init__(self):\n        # Initialize the text-to-speech engine\n        self.assistant = pyttsx3.init('sapi5')\n        voices = self.assistant.getProperty('voices')\n        self.assistant.setProperty('voice', voices[1].id)\n        self.assistant.setProperty('rate', 150)\n        # Initialize the Vosk speech recognition model\n        self.vosk_models = {\n            \"english\": Model(\"FINAL/Models/vosk-model-small-en-in-0.4\"),",
         "detail": "FINAL.MAIN FILE",
         "documentation": {}
     },
@@ -868,6 +859,15 @@
         "description": "FINAL.MAIN",
         "peekOfCode": "voices = assistant.getProperty('voices')\nassistant.setProperty('voice', voices[1].id)\nassistant.setProperty('rate', 150)\ndef speak(audio):\n    assistant.say(audio)\n    print(f\": {audio}\")\n    assistant.runAndWait()\nclass GifLoaderWorker(QtCore.QThread):\n    gif_path_loaded = QtCore.pyqtSignal(str)  # Signal to emit when a GIF path is loaded\n    def __init__(self, gif_paths):",
         "detail": "FINAL.MAIN",
+        "documentation": {}
+    },
+    {
+        "label": "model_path",
+        "kind": 5,
+        "importPath": "FINAL.mBERT",
+        "description": "FINAL.mBERT",
+        "peekOfCode": "model_path = \"FINAL\\\\Models\\\\vosk-model-en-in-0.5\"\ntry:\n    model = Model(model_path)\n    print(\"Model loaded successfully!\")\nexcept Exception as e:\n    print(\"Error:\", e)",
+        "detail": "FINAL.mBERT",
         "documentation": {}
     },
     {
