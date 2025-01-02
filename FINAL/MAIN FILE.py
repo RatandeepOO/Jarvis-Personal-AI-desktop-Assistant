@@ -22,8 +22,8 @@ class Assistant:
 
         # Initialize the Vosk speech recognition model
         self.vosk_models = {
-            "english": Model("FINAL\\Models\\vosk-model-small-en-in-0.4"),
-            "hindi": Model("FINAL\\Models\\vosk-model-small-hi-0.22")
+            "english": Model(r"FINAL\Models\vosk-model-small-en-in-0.4\vosk-model-small-en-in-0.4"),
+            "hindi": Model(r"FINAL\Models\vosk-model-small-hi-0.22\vosk-model-small-hi-0.22")
         }
         self.current_lang = "english"
 
