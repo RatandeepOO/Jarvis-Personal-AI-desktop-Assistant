@@ -247,7 +247,7 @@ class Assistant:
                 self.speak("Goodbye!")
                 break
             else:
-                self.speak("I didn't understand that.")
+                continue
 
 if __name__ == "__main__":
     assistant = Assistant()
